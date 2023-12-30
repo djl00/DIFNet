@@ -1,0 +1,4 @@
+_base_: './difnet_stdc1_camvid_960x720_10k.yml'
+
+val_dataset:
+  val_path: ../../../root/autodl-tmp/data/camvid/test.txt
